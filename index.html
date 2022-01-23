@@ -28,13 +28,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Package</a>
+                    <a class="nav-link" href="#packages">Package</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#about-us">About us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link" href="#">FAQ</a>
                   </li>
                 
                
@@ -55,7 +55,7 @@
                   <div>
                     <h1>The perfect venue for your next event</h1>
                     <p>We are the best convention center in this city.</p>
-                    <button class="btn btn-primary">Book Now</button>
+                    <a href="https://biccbd.com/"><button class="btn btn-primary">Book Now</button></a>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@
                     <div>
                         <h1>We'll Make Your Wedding Venue Dreams Come True</h1>
                         <p>Our professional wedding planners are ready to help make your wedding reciption reality.</p>
-                        <button class="btn btn-primary">Book Now</button>
+                        <a href="https://biccbd.com/"><button class="btn btn-primary">Book Now</button></a>
                       </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                     <div>
                         <h1>We provide best services as you want</h1>
                         <p>We have many type of packages to makes your dream comes true</p>
-                        <button class="btn btn-primary">Book Now</button>
+                        <a href="https://biccbd.com/"><button class="btn btn-primary">Book Now</button></a>
                       </div>
                 </div>
               </div>
@@ -93,7 +93,8 @@
     </header>
     <!-- Main Part start  -->
     <main class="container">
-       <section class="my-5">
+        <!-- About Us Section -->
+       <section class="my-5" id="about-us">
         <div class="container my-5">
             <div class="row gx-5 d-flex justify-content-center align-items-center">
                 <div class="col-lg-5">
@@ -110,8 +111,21 @@
         </div>
 
        </section>
+       <!-- Toast -->
+       
+       <div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body border-start border-primary border-3">
+            <p><i class="fas fa-gift"></i> 20% off on next booking</p>
+           
+         </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+      
+     
        <!-- Packages section  -->
-       <section class="container my-5">
+       <section class="container my-5" id="packages">
            <h1 class="text-center">Our Packages</h1>
            <div class="row my-5">
                <div class="col-lg-3">
@@ -135,7 +149,7 @@
                     <p><i class="far fa-check-circle"></i>Fresh Brewed Columbian Coffee, Decaffeinated Coffee & Tea
                         Espresso (Served at the bar)</p>
                </div>
-               <div class="col-lg-3 premium-content">
+               <div class="col-lg-3 premium-content shadow-lg p-3 mb-5 bg-primary">
                    <span class="hot-text">Hot</span>
                    <h1>$1700</h1>
                    <h2>Premium plus</h2>
@@ -218,19 +232,21 @@
                       </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/people.png" alt="" class="rounded-3">
+                    <img  src="images/people.png" alt="" class="rounded-3 w-100">
                 </div>
             </div>
         </section>
     </main>
     <!-- Footer part start -->
-    <footer class="mt-5 d-flex justify-content-around align-items-center">
-       <small> &copy; 2022 Get Together Convention Center. All rights reserved</small>
-       <div class="py-5">
-           <h2>Get the app</h2>
-           <a target="_blank" href="https://apps.apple.com/us/app/hdsa-annual-convention/id1498167185"><img src="images/app-store.png" alt=""></a>
-           <br>
-           <a target="_blank" href="https://play.google.com/store/apps/details?id=com.whova.event&hl=en&gl=US"><img src="images/google-play.png" alt=""></a>
+    <footer class="mt-5">
+       <div class="container d-sm-flex flex-sm-column  d-lg-flex flex-lg-row justify-content-around align-items-center">
+        <small> &copy; 2022 Get Together Convention Center. All rights reserved</small>
+        <div class="py-5">
+            <h2>Get the app</h2>
+            <a target="_blank" href="https://apps.apple.com/us/app/hdsa-annual-convention/id1498167185"><img class="my-2" src="images/app-store.png" alt=""></a>
+            <br>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.whova.event&hl=en&gl=US"><img src="images/google-play.png" alt=""></a>
+        </div>
        </div>
 
     </footer>

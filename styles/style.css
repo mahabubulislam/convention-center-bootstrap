@@ -4,17 +4,21 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
 .premium-content{
     background-color: #3F87F5;
     border-radius: 26px;
     position: relative;
+
 }
 .hot-text{
     background-color: #FF4E4E; ;
     padding: 2px 5px;
     border-radius: 15px;
     position: relative;
-    top: -10px;
+    top: -25px;
+    float: right;
     
 }
 footer{
