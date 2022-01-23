@@ -10,7 +10,14 @@ body{
     background-color: #3F87F5;
     border-radius: 26px;
     position: relative;
-
+    transform: scaleY(1.1);
+} 
+.together-btn{
+    background-color:#FF4E4E ;
+}
+.package-btn{
+    background-color:#F496D1;
+    color:  #3F87F5;
 }
 .hot-text{
     background-color: #FF4E4E; ;
@@ -21,7 +28,39 @@ body{
     float: right;
     
 }
+.venue-select{
+    height: 400px;
+   
+}
 footer{
     background-color: black;
     color: white;
+}
+
+
+@media only screen and (max-width:768px) {
+    .img-heading h1{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+
+    }
+    .img-heading p{
+        
+        font-size: 8px;
+
+    }
+    .img-heading a{
+        color: blue;
+    }
+    .small-device{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        order: 1;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    
 }
