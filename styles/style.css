@@ -26,17 +26,9 @@ body{
     color: #5243C2;
     background-color: #5243c20c;
 }
-.hot-text{
-    background-color: #FF4E4E; ;
-    padding: 2px 5px;
-    border-radius: 15px;
-    position: relative;
-    top: -25px;
-    float: right;
-    
-}
+
 .venue-select{
-    height: 400px;
+   height: 400px;
    
 }
 footer{
@@ -59,6 +51,10 @@ footer{
     .img-heading a{
         color: blue;
     }
+    .venue-select{
+        height: auto;
+        
+     }
     .small-device{
         display: flex;
         flex-direction: column;
