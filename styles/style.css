@@ -4,20 +4,27 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.slider-img{
+    filter: blur(1px);
+}
 
-
-.premium-content{
+.wedding-package{
     background-color: #3F87F5;
+    color: white;
     border-radius: 26px;
     position: relative;
-    transform: scaleY(1.1);
+    transform: scale(1.1);
 } 
 .together-btn{
     background-color:#FF4E4E ;
 }
 .package-btn{
-    background-color:#F496D1;
+    background-color:#ffbce6;
     color:  #3F87F5;
+}
+.fa-check-circle{
+    color: #5243C2;
+    background-color: #5243c20c;
 }
 .hot-text{
     background-color: #FF4E4E; ;
